@@ -1,0 +1,121 @@
+div#title{
+  background-image: url(../img/bg-change.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+  /*! border-bottom: 3px solid #ccc; */
+  height: 1080px;
+  }
+  div#title .wrap{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  align-items: flex-start;
+  position: relative;
+  padding: 0;
+  height: 100%;
+  }
+  div#title .wrap>span{
+  /*! text-align: center; */
+  color: #b16c5c;
+  color: #fff;
+  margin-top: 260px;
+  }
+  div#title h2{
+  font-size: 150px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  font-style: italic;
+  text-shadow: 1px 1px 3px #0000008a;
+  color: #fff;
+  padding: 30% 0 0 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'Fried-Cassava';
+  animation-name: moving;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-duration: 0.5s;
+}
+  @keyframes moving{
+    0%{
+
+    }
+    50%{
+      transform: scale(1.1);
+    }
+  }
+  div#title h2 + p{ /* + 인접선택자,형제선택자 h2다음에 오는 p */
+  line-height: 1.6;
+  font-size: 18px;
+  color: #d6d6d6;
+  font-family: 'Pretendard-Regular';
+  text-shadow: 1px 1px 3px black;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  }
+  div#title h2 + p + p{
+  line-height: 1.6;
+  font-size: 21px;
+  }
+  div#title a.shop{ 
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 40px;
+  border: 1px solid #528fa6;
+  padding: 15px 35px;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all 0.5s;
+  box-shadow: 2px 2px #fff;
+  font-family: 'Pretendard-Regular';
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #fff;
+  color: #528fa6;
+  }
+  div#title a.shop:hover{
+  background-color: #fff;
+  color: #528fa6;
+  font-weight: 500;
+  box-shadow: none;
+  transform: translate(2px, 2px);
+  text-shadow: 1px 1px 1px transparent;
+  } 
+/*   div#title a.shop::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/arrow_right_p.svg);
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+ */
+  
+  /*   text-decoration: none;
+  font-size: 0;
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/circle-title-p.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 200px;
+  right: 0;
+  display: block;
+  box-sizing: border-box; */
+  
+  
+  
+  
+  
+  
+  
+  
+  

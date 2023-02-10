@@ -1,0 +1,107 @@
+/* 콘텐츠 내용강조 폰트 */
+@font-face {
+    font-family: 'NotoSerifKR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 영어 제목 폰트 */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ChosunGs';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 한글 제목 및 일반 콘텐츠 폰트 */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+  background-color: #fcf9ee;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+header {
+  font-family: 'Pretendard-Regular';
+  }
+  header .wrap { 
+    display: flex;
+    margin: 0 auto;
+    margin-top: 35px;
+    align-items: center;
+    position: absolute;
+    z-index: 99;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 7.5%;
+    justify-content: space-between;
+  }
+  header .wrap h1.logo {
+    
+  }
+  header .wrap h1.logo a{
+    background-image: url(../img/logo-w.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+    width: 60px;
+    display: block;
+    font-size: 0;
+    /*! margin-right: 25px; */
+    transition: all 0.5s;
+  }
+  header .wrap h1.logo a:hover{
+    background-image: url(../img/logo-b.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+    width: 60px;
+    display: block;
+    font-size: 0;
+  }
+  header .wrap ul.menu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+  header .wrap ul.menu li {
+    
+  }
+  header .wrap ul.menu li a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    /*! color: #333; */
+    color: #fff;
+    transition: all 0.5s;
+  }
+  header .wrap ul.menu li a:hover{
+    color:#528fa6;
+    /*! color: #666; */
+  }
+  header .wrap ul.menu li:nth-child(6) a{
+    background-image: url(../img/shop_w.svg);
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    font-size: 0;
+    background-repeat: no-repeat;
+    padding: 0;
+  }
+  header .wrap ul.menu li:nth-child(6) a:hover{
+    background-image: url(../img/shop-b.svg);
+
+  }
+  header .wrap a.ham{
+    display: none;
+  }

@@ -1,0 +1,88 @@
+footer{
+  background-color: #515358;
+  line-height: 1.6;
+  color: #fff;
+}
+footer .wrap{
+  font-family: 'Pretendard-Regular';
+  position: relative;
+  height: 100%;
+}
+/* footer .wrap::after{
+  content: "LUNA BREW";
+  font-size: 246px;
+  color: #fff;
+  opacity: 0.1;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 0;
+  font-family: 'NotoSerifKR';
+} */
+footer .wrap h2{
+  font-family: 'GmarketSansMedium';
+   font-size: 25px;
+  /*! border-bottom: 1px solid #fddddd; */
+  padding: 10px 0;
+  text-align: left;
+  opacity: 0.8;
+  display: none;
+}
+footer .wrap a.sitemap{
+  display: block;
+  text-decoration: 0;
+  color: #fddddd;
+  font-size: 36px;
+  position: absolute;
+  right: 24px;
+  top: 50px;
+  padding: 0 15px;
+  display: none;
+}
+footer .wrap h1{
+  font-size: 0;
+  opacity: 0.5;
+}
+footer .wrap h1 a{
+  display: block;
+  width: 90px;
+  height: 90px;
+  background-image: url(../img/logo-w.svg);
+  background-size: contain;
+  position: absolute;
+  right: 0;
+  bottom: calc(50% - 45px);
+  opacity: 0.8;
+}
+footer .wrap address{
+  gap: 13px;
+  display: flex;
+  /*! justify-content: flex-start; */
+  /*! font-size: 15px; */
+  padding-top: 90px;
+  opacity: 0.5;
+}
+footer .wrap address strong{
+  font-weight: 500;
+}
+footer .wrap address span{
+  display: block;
+}
+footer .wrap p.copy{
+  text-align: left;
+  opacity: 0.5;
+}
+footer .wrap p.tell{
+  font-weight: 500;
+  font-size: 20px;
+  /*! padding: 10px 0; */
+  /*! padding-bottom: 40px; */
+  position: absolute;
+  top: 50px;
+  left: 0;
+  opacity: 0.7;
+}
+footer .wrap p.tell strong{
+  font-size: 30px;
+  margin-left: 10px;
+}
+

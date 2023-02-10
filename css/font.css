@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Mustard-Smile';
+    src: url('../font/Mustard-Smile.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Fried-Cassava';
+    src: url('../font/Fried-Cassava.woff') format('woff');
+    font-weight: normal;
+}
